@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+/*normatizar el css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color : hsl(27, 66%, 92%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sec1 {
+    width: 325px;
+    height: 75px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    
+}
+
+.color-texto { 
+     color: hsl(27, 66%, 92%);
+}
+
+.tamaños-de-texto h5 {
+    font-size: 12px;
+}
+
+.tamaños-de-texto h3 {
+    font-size: 18px
+}
+
+.sec2 {
+    width: 325px;
+    height: 320px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 22px;
+    margin-top: 15px;
+}
+
+.Bars {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-bottom: 1px solid hsl(28, 10%, 53%);
+    padding-bottom: 10px;
+}
+
+.Barras-principales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.ancho-barra {
+    width: 30px;
+    border-radius: 3px;
+}
+
+.altura-barra1 {
+    height: 30px;
+    background-color:hsl(10, 79%, 65%)
+
+}
+
+.altura-barra2 {
+    height: 60px;
+    background-color:hsl(10, 79%, 65%)
+}
+
+.altura-barra3 {
+    height: 90px;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.altura-barra4 {
+    height: 54px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.altura-barra5 {
+    height: 42px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.altura-barra6 {
+    height: 75px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.altura-barra7 {
+    height: 45px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.text-active {
+    font-size: 10px;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(27, 66%, 92%);
+    padding: 3.5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.texto-bajo {
+    font-size: 9px;
+    margin-top: 5px;
+    color: hsl(28, 10%, 53%);
+}
+
+.Barras-principales:hover .text-active{
+    visibility: visible;
+}
+
+.secfooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.textos-izquierda h3 {
+    font-size: 12px;
+    color: hsl(28, 10%, 53%);
+    margin-bottom: 5px;
+}
+
+.textos-izquierda h2 {
+    font-size: 24px;
+    color: hsl(25, 47%, 15%);
+}
+
+.textos-derecha {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.textos-derecha h5 {
+    font-size: 12px;
+    color: hsl(25, 47%, 15%);
+    margin-bottom: 5px;
+}
+
+.textos-derecha h4 {
+    font-size: 12px;
+    color: hsl(28, 10%, 53%);
+}
